@@ -19,6 +19,14 @@ void insertAtFront(LinkedList* list, void* data);
 void insertAtEnd(LinkedList* list, void* data);
 void insertAtIndex(LinkedList* list, void* data, int index);
 
+void removeFront(LinkedList* list);
+void removeEnd(LinkedList* list);
+void removeAtIndex(LinkedList* list, int index);
+
+Node* getFront(LinkedList* list);
+Node* getEnd(LinkedList* list);
+Node* getAtIndex(LinkedList* list, int index);
+
 void printList(LinkedList* list);
 unsigned int getSize(LinkedList* list);
 
