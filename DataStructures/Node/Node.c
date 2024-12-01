@@ -9,7 +9,3 @@ Node* createNode(void* data){
     newNode->next = NULL;
     return newNode;
 }
-
-void destroyNode(Node* node){
-    free(node);
-}

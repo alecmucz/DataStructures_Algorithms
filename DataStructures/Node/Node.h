@@ -12,5 +12,4 @@ typedef struct Node {
 } Node;
 
 struct Node* createNode(void* data);
-void destroyNode(Node* node);
 #endif //DATASTRUCTURES_ALGORITHMS_NODE_H

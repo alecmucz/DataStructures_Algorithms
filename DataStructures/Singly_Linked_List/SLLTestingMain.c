@@ -23,11 +23,11 @@ int main(void) {
     removeEnd(list);
     printList(list);
 
-    removeAtIndex(list, 2);
+    removeFromIndex(list,0);
     printList(list);
 
-    Node* indexNode = getAtIndex(list, 0);
-    printf("Index %d : %d\n", 5, (int) indexNode->data);
+    Node* indexNode = getAtIndex(list, 2);
+    printf("Index %d : %d\n", 2, (int) indexNode->data);
 
 
     printf("list size : %d\n",getSize(list));
